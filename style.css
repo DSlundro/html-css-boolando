@@ -20,10 +20,9 @@ body{
 }
 #container{
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 40px;
     background-color: var(--white);
-    position: relative;
-    width: 1000px;
+    width: 970px;
   
 }
 
@@ -33,10 +32,9 @@ product
 .product{
     display: inline-block;
     position: relative;
-    margin: 10px 5px 5px 10px;
-    border: 2px solid black;
+    margin: 10px 5px;
 }
-.red{
+div>.red{
     background-color: var(--red);
     color: var(--white);
     position: absolute;
@@ -81,9 +79,25 @@ h5{
 images
 ***************/
 .img{
-    background-image: url(img/1.webp);
     background-position: center;
     background-size: cover;
     width: 300px;
     height: 440px;
 }
+#img_top_left{background-image: url(img/1.webp);}
+#img_top_left:hover{background-image: url(img/1b.webp);}
+
+#img_top_center{background-image: url(img/2.webp);}
+#img_top_center:hover{background-image: url(img/2b.webp);}
+
+#img_top_right{background-image: url(img/3.webp);}
+#img_top_right:hover{background-image: url(img/3b.webp);}
+
+#img_bottom_left{background-image: url(img/4.webp);}
+#img_bottom_left:hover{background-image: url(img/4b.webp);}
+
+#img_bottom_center{background-image: url(img/5.webp);}
+#img_bottom_center:hover{background-image: url(img/5b.webp);}
+
+#img_bottom_right{background-image: url(img/6.webp);}
+#img_bottom_right:hover{background-image: url(img/6b.webp);}
