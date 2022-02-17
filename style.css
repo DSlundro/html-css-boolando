@@ -38,6 +38,10 @@ product
     margin: 0px 5px;
 
 }
+.img_text{
+    position: absolute;
+    top: 390px;
+}
 .red{
     background-color: var(--red);
     color: var(--white);
@@ -105,8 +109,3 @@ images
 
 #img_bottom_right{background-image: url(img/6.webp);}
 #img_bottom_right:hover{background-image: url(img/6b.webp);}
-
-.img_text{
-    position: absolute;
-    top: 390px;
-}
