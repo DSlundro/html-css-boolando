@@ -22,7 +22,10 @@ body{
     margin: 0 auto;
     margin-top: 40px;
     background-color: var(--white);
-    width: 970px;
+    width: 940px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
   
 }
 
@@ -32,22 +35,20 @@ product
 .product{
     display: inline-block;
     position: relative;
-    margin: 10px 5px;
+    margin: 0px 5px;
+
 }
-div>.red{
+.red{
     background-color: var(--red);
     color: var(--white);
-    position: absolute;
-    top: 390px;
+    display: inline-block;
     padding: 4px 5px;
 }
 .green{
     background-color: var(--green);
     color: var(--white);
+    display: inline-block;
     font-weight: bold;
-    position: absolute;
-    left: 50px;
-    top: 390px;
     padding: 4px 5px;
 }
 .like{
@@ -66,6 +67,9 @@ image description
 .price{
     color: var(--price-red);
     font-weight: bold;
+}
+.description{
+    margin-bottom: -20px;
 }
 p{
     margin-top: 4px;
@@ -101,3 +105,8 @@ images
 
 #img_bottom_right{background-image: url(img/6.webp);}
 #img_bottom_right:hover{background-image: url(img/6b.webp);}
+
+.img_text{
+    position: absolute;
+    top: 390px;
+}
